@@ -1,16 +1,5 @@
+import ComponentLifeCycle from "./Day8/ComponentLifeCycle";
 
-import PropsClass from "./Day4/PropsClass";
-import PropsFunctional2 from "./Day4/PropsFunctional2";
-import PropsFunctional3 from "./Day4/PropsFunctional3";
-import PropsFunctional from "./Day4/PropsFunctional";
-import ArrowProps from "./Day4/ArrowProps";
-import StateClassCom from "./Day4/StateClassCom";
-import StateFunction from "./Day4/StateFunction";
-import StateHoldObject from "./Day4/StateHoldObject";
-import Parent from "./Day4/ParentChildCommunication";
-import TwoWayBinding from "./Day4/TwoWayBinding";
-import DynamicRendering from "./Day4/DynamicRendering";
-import DefaultProps from "./Day4/DefaultProps";
 function App() {
   return (
    /* <div className="App">
@@ -59,17 +48,8 @@ function App() {
       </form>
     </div>*/ 
     <div>
-      <PropsClass collage="skct"></PropsClass>
-      <PropsFunctional name="Avdrt"></PropsFunctional>
-<PropsFunctional2 name="Avanthika" age="18"></PropsFunctional2> 
-<PropsFunctional3 name="Amudha" age="44"></PropsFunctional3>
-<ArrowProps place="Salem"></ArrowProps>
-<StateClassCom/> 
-<StateFunction/> 
-<StateHoldObject/>  
-<DynamicRendering/>
-<TwoWayBinding/> 
-<DefaultProps name="skct"></DefaultProps>
+  
+  <ComponentLifeCycle/>
  </div>
   );
 }
